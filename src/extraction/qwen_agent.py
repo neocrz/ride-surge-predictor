@@ -1,5 +1,5 @@
 import ollama
-# client = ollama.Client(host='https://3d76-136-118-20-127.ngrok-free.app')
+# client = ollama.Client(host='')
 client = ollama.Client()
 def process_with_llm(image_path):
     """Sends image to LLM and returns the raw string response."""
