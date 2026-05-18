@@ -10,7 +10,7 @@ parser.add_argument("--collect", action="store_true", help="Run the data collect
 parser.add_argument("--extract", action="store_true", help="Run the extraction (LLM Parsing + CSV appending)")
 parser.add_argument("--process", action="store_true", help="Clean data and engineer features for ML")
 parser.add_argument("--eda", action="store_true", help="Run Exploratory Data Analysis on processed data")
-parser.add_argument("--train", action="store_true", help="Train and evaluate ML models (Phase 4)")
+parser.add_argument("--train", action="store_true", help="Train and evaluate ML models")
 
 def check_directories():
     base = "data"
